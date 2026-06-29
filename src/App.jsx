@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react'
-import { Menu, X, Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from 'lucide-react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -18,7 +16,7 @@ function App() {
       <Fleet />
       <WhyChooseUs />
       <BookingProcess />
-      <Contact Logo="/Ridelogo.jpeg" />
+      <Contact />
       <Footer Logo="/Ridelogo.jpeg" />
     </div>
   )

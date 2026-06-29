@@ -1,4 +1,4 @@
-function Contact({ Logo }) {
+function Contact() {
   const contactInfo = [
     {
       icon: '📞',
