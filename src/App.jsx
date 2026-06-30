@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Services from './components/Services'
 import Fleet from './components/Fleet'
 import WhyChooseUs from './components/WhyChooseUs'
 import BookingProcess from './components/BookingProcess'
@@ -10,14 +11,15 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="min-h-screen">
-      <Navbar Logo="/Ridelogo.jpeg" />
+      <Navbar Logo="/rklogo.jpeg" />
       <Hero />
-      <About Logo="/Ridelogo.jpeg" />
+      <About Logo="/rklogo.jpeg" />
+      <Services />
       <Fleet />
       <WhyChooseUs />
       <BookingProcess />
       <Contact />
-      <Footer Logo="/Ridelogo.jpeg" />
+      <Footer Logo="/rklogo.jpeg" />
     </div>
   )
 }

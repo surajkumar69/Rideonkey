@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         primary: {
-          orange: '#FF6B00',
-          black: '#1A1A1A',
+          orange: '#D4AF37', // Premium Gold
+          black: '#0B0F19',  // Luxury Deep Black
           white: '#FFFFFF',
-          gray: '#F5F5F5',
-          darkGray: '#333333',
-          textGray: '#666666',
+          gray: '#F8FAFC',   // Clean background gray
+          darkGray: '#1E293B', // Sleek card background dark
+          textGray: '#64748B', // Soft text gray
         },
       },
       fontFamily: {
